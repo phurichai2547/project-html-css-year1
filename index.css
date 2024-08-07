@@ -1,0 +1,234 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html,
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.top-nav {
+  height: 13px;
+  background-color: black;
+  display: flex;
+}
+nav {
+  height: 50px;
+  display: flex;
+}
+.nav-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left {
+  display: flex;
+  height: 100%;
+  margin-left: 2rem;
+  border-left: 3rem solid black;
+  padding-left: 1rem;
+}
+.nav-left a {
+  font-size: 3rem;
+  color: black;
+}
+.nav-right {
+  font-family: "Aclonica", sans-serif;
+  display: flex;
+  height: 100%;
+  margin-right: 2rem;
+  border-right: 3rem solid black;
+  padding-right: 1rem;
+  align-items: center;
+}
+.nav-right .nav-right-btn {
+  border-radius: 10px;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  margin: 0 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: #a7a7a7;
+  background-color: #441d1d;
+}
+.body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+}
+.body img {
+  position: absolute;
+  opacity: 0.5;
+  width: 100%;
+}
+.title {
+  display: flex;
+  position: absolute;
+  top: 1rem;
+  font-size: 3rem;
+  line-height: 1.5;
+  border-bottom: 10px solid white;
+  padding: 2rem 2rem 2rem 3rem;
+  color: white;
+  font-family: "Holtwood One SC", serif;
+}
+footer {
+  display: flex;
+  height: 50px;
+  position: absolute;
+  align-items: center;
+  right: 0;
+  bottom: 0;
+  padding: 1.5rem;
+  font-family: "Holtwood One SC", serif;
+}
+.next-btn {
+  border-radius: 10px;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  background-color: #b4abab;
+}
